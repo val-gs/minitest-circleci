@@ -12,6 +12,6 @@ class TestBar < MiniTest::Test
   end
 
   def test_foo
-    assert_equal "bar", @bar.bar
+    assert_equal "var", @bar.bar
   end
 end
